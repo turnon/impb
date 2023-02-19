@@ -3,6 +3,12 @@ module github.com/turnon/impb
 go 1.18
 
 require (
+	github.com/pocketbase/dbx v1.9.0
+	github.com/pocketbase/pocketbase v0.12.3
+	github.com/turnon/imdbtsv v0.0.0-20230219094606-c7a346ff4f7d
+)
+
+require (
 	github.com/AlecAivazis/survey/v2 v2.3.6 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/aws/aws-sdk-go v1.44.187 // indirect
@@ -46,8 +52,6 @@ require (
 	github.com/mattn/go-isatty v0.0.17 // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
-	github.com/pocketbase/dbx v1.9.0 // indirect
-	github.com/pocketbase/pocketbase v0.12.3 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230126093431-47fa9a501578 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/cobra v1.6.1 // indirect
